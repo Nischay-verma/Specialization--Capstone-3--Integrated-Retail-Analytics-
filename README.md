@@ -1,9 +1,11 @@
 **📊 Integrated Retail Analytics: Optimization & Demand Forecasting**
 **🧾 Project Overview**
+
 This project delivers an end-to-end retail analytics solution designed to bridge the gap between raw data and actionable business strategy. By leveraging 
 historical sales data and external economic indicators, the system identifies anomalies, segments stores, and forecasts demand to optimize inventory and operational efficiency.
 
 **🎯 Project Objective**
+
     The goal is to provide a data-driven framework for retail management to:
     Predict weekly sales with high accuracy.
     Identify sales anomalies and their underlying drivers (e.g., promotions, holidays).
@@ -11,14 +13,14 @@ historical sales data and external economic indicators, the system identifies an
     Quantify the impact of external factors like CPI, Fuel Prices, and Unemployment.
     
 **🔍 Methodology & Key Components**
+
       **1.Data Preprocessing & Feature Engineering**
             Merged disparate datasets (Sales, Store Metadata, and External Features).
             Engineered time-series features: Year, Month, Week, and IsHoliday.
             Handled missing values in promotional markdown data using sophisticated imputation.
 
       **2. Anomaly Detection**
-            Using Isolation Forest and statistical Z-scores, the project flags outliers in sales data. This helps management distinguish 
-            between organic growth and data errors or one-time promotional spikes.
+            Using Isolation Forest and statistical Z-scores, the project flags outliers in sales data. This helps management distinguish between organic growth and data errors or one-time promotional spikes.
 
     **  3. Store & Department Segmentation**
             Applied K-Means Clustering to categorize stores based on sales volume and economic sensitivity.
